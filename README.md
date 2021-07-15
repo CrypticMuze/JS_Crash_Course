@@ -3,7 +3,7 @@
 </p>
 # JavaScript Crash Course
 ## About the Project
-This repo contains the output files with respect to the (JavaScript Crash Course under CleverProgrammer on YT)[https://www.youtube.com/watch?v=Qqx_wzMmFeA]. All credits go to (CleverPrograamer YT Channel)[https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ]
+This repo contains the output files with respect to the [JavaScript Crash Course under CleverProgrammer on YT](https://www.youtube.com/watch?v=Qqx_wzMmFeA). All credits go to [CleverPrograamer YT Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
 
 ## Live Demonstartion of the Output
 
