@@ -8,7 +8,7 @@ This repo contains the output files with respect to the [JavaScript Crash Course
 
 ## Live Demonstartion of the Output
 
-  LIVE Demonstration on Netlify: [Click Here](https://app.netlify.com/sites/agitated-brown-9f8c80/overview)
+  LIVE Demonstration on Netlify: [Click Here](https://agitated-brown-9f8c80.netlify.app/)
 
 ## Installation
 
