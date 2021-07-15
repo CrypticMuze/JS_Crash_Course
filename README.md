@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/CrypticMuze/" alt="JSLogo" height=200px width=200px/>
+<img src="https://github.com/CrypticMuze/JS_Crash_Course/blob/master/img/JSlogo.png" alt="JSLogo" height=200px width=200px/>
 </p>
 # JavaScript Crash Course
 ## About the Project
