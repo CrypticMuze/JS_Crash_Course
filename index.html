@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Crash Course</title>
+</head>
+<body>
+    <h1><i><marquee behavior="alternate" direction="right" scrollamount="10">JavaScript Crash Course Challenges</marquee></i></h1>
+    <div class="container">
+        <div class="challange-box 1">
+            <h2><i>Challange 1: Your Age in Days</i></h2>
+            <div class="box flex-box">
+                <button class="btn btn-blue" onclick="ageInDays()">Click me</button>
+                <button class="btn btn-red" onclick="resetDays()">Reset</button>
+            </div>
+            <div class="box flex-box" id="first-result">
+            </div>
+        </div>
+        <div class="challange-box 2">
+            <h2><i>Challenge 2: Cat Generator</i></h2>
+            <div class="box flex-box">
+                <button class="btn btn-green" onclick="generateCats()">Generate Cat</button>
+                <button class="btn btn-red" onclick="resetCats()">Reset</button>
+            </div>
+            <div class="box flex-box" id="cat-container">
+            </div>
+        </div> 
+        <div class="challange-box 3">
+            <h2><i>Challange 3: Rock, Paper, Scissors</i></h2>
+            <div class="box flex-box" id="rps-container">
+                <img id="rock" class="select" onclick="rpsGame(this)" src="img/rock.png" alt="Rock">
+                <img id="paper" class="select" onclick="rpsGame(this)" src="img/paper.png" alt="paper">
+                <img id="scissors" class="select" onclick="rpsGame(this)" src="img/scissors.png" alt="scissors">
+            </div>
+        </div>
+        <div class="challange-box 4">
+            <h2><i>Challange 4: Change the Button's Colors</i></h2>
+            <div class="box flex-box" id="bg-selection">
+                <form action="">
+                    <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="reset">Reset</option>
+                    </select>
+                </form>
+                <button class="btn btn-blue">Facebook</button>
+                <button class="btn btn-red">Youtube</button>
+                <button class="btn btn-yellow">Google</button>
+                <button class="btn btn-green">WhatsApp</button>
+            </div>
+        </div>
+        <div class="challange-box 5">
+            <h2><i>Challange 5: BlackJack Game</i></h2>
+            <h3><span id="title-message">Let's Play! May the odds be ever in <i>your favour </i>!</span></h3>
+            <div class="box blackjack">
+                <div class="bj-table">
+                    <div class="bj-table-side">
+                        <h4>You: <span id="your-blackjack-score">0</span></h4>
+                        <div id="yourTable" class="bj-table-card-container">
+
+                        </div>
+                    </div>
+                    <div class="bj-table-side">
+                        <h4>Dealer: <span id="dealer-blackjack-score">0</span></h4>
+                        <div id="dealerTable" class="bj-table-card-container">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="bj-buttons">
+                    <button id="blackjack-hit" class="btn btn-blue">Hit</button>
+                    <button id="blackjack-stand" class="btn btn-yellow">Stand</button>
+                    <button id="blackjack-deal" class="btn btn-red">Deal Next Hand</button>
+                </div>
+                <div class="bj-points">
+                    <table>
+                        <tr>
+                            <th>Wins</th>
+                            <th>Draws</th>
+                            <th>Losses</th>
+                        </tr>
+                        <tr>
+                            <td><span id="wins">0</span></td>
+                            <td><span id="draws">0</span></td>
+                            <td><span id="losses">0</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
