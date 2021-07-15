@@ -1,6 +1,7 @@
 <p align="center">
 <img src="https://github.com/CrypticMuze/JS_Crash_Course/blob/master/img/JSlogo.png" alt="JSLogo" height=200px width=200px/>
 </p>
+
 # JavaScript Crash Course
 ## About the Project
 This repo contains the output files with respect to the [JavaScript Crash Course under CleverProgrammer on YT](https://www.youtube.com/watch?v=Qqx_wzMmFeA). All credits go to [CleverPrograamer YT Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ)
