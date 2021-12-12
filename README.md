@@ -21,5 +21,5 @@ git clone https://github.com/CrypticMuze/JS_Crash_Course.git
 
 You're good to go! The Foodies website should open on the live server.
 
-## Connect with Me!
-1. Aman Anand - [LinkedIN](https://www.linkedin.com/in/amanxanand/) || [GitHub](https://github.com/aman-anand1906) || [Instagram](https://www.instagram.com/aman_anand_619/")
+## Connect with the Collaborators
+1. Aman Anand - [LinkedIN](https://www.linkedin.com/in/amanxanand/) || [GitHub](https://github.com/CrypticMuze) || [Instagram](https://www.instagram.com/_am.an.and_/)
